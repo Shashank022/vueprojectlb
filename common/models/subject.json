@@ -1,0 +1,35 @@
+{
+  "name": "subject",
+  "plural": "subjects",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "class": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "rollNumber": {
+      "type": "number",
+      "required": true
+    },
+    "school": {
+      "type": "string",
+      "required": true
+    },
+    "personId": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
