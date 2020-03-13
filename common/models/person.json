@@ -27,7 +27,7 @@
   "validations": [],
   "relations": {
     "subjects": {
-      "type": "hasOne",
+      "type": "hasMany",
       "model": "subject",
       "foreignKey": "personId"
     }
